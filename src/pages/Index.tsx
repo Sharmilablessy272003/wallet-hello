@@ -1,15 +1,14 @@
 import WalletConnect from "@/components/WalletConnect";
 import { Shield, Zap, Lock } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-hero">
       {/* Hero Background */}
       <div 
-        className="absolute inset-0 opacity-30"
+        className="absolute inset-0 opacity-80"
         style={{
-          backgroundImage: `url(${heroBg})`,
+          backgroundImage: `url(/lovable-uploads/f00df91a-b387-4414-9336-55cd0840100c.png)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
