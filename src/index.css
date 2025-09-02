@@ -8,58 +8,58 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Base colors */
-    --background: 220 15% 97%;
-    --foreground: 220 25% 15%;
+    /* Base colors - Dark theme */
+    --background: 185 100% 8%;
+    --foreground: 180 20% 95%;
 
     /* Card surfaces */
-    --card: 0 0% 100%;
-    --card-foreground: 220 25% 15%;
+    --card: 185 80% 12%;
+    --card-foreground: 180 20% 95%;
 
     /* Interactive elements */
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 25% 15%;
+    --popover: 185 80% 12%;
+    --popover-foreground: 180 20% 95%;
 
-    /* Primary brand colors - Deep trustworthy blue */
-    --primary: 225 60% 45%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 225 70% 65%;
+    /* Primary brand colors - Bright teal/cyan */
+    --primary: 175 85% 55%;
+    --primary-foreground: 185 100% 8%;
+    --primary-glow: 175 100% 70%;
 
-    /* Secondary colors - Warm accent */
-    --secondary: 220 15% 94%;
-    --secondary-foreground: 220 25% 25%;
+    /* Secondary colors - Dark teal */
+    --secondary: 185 60% 20%;
+    --secondary-foreground: 180 20% 95%;
 
     /* Muted colors */
-    --muted: 220 15% 92%;
-    --muted-foreground: 220 15% 45%;
+    --muted: 185 50% 15%;
+    --muted-foreground: 180 15% 65%;
 
-    /* Accent colors - Warm golden orange for CTAs */
-    --accent: 35 85% 55%;
-    --accent-foreground: 0 0% 100%;
-    --accent-glow: 35 90% 70%;
+    /* Accent colors - Bright cyan for CTAs */
+    --accent: 175 85% 55%;
+    --accent-foreground: 185 100% 8%;
+    --accent-glow: 175 100% 70%;
 
     /* States */
     --destructive: 0 75% 55%;
     --destructive-foreground: 0 0% 100%;
 
     /* UI elements */
-    --border: 220 15% 88%;
-    --input: 220 15% 92%;
-    --ring: 225 60% 45%;
+    --border: 185 40% 25%;
+    --input: 185 50% 15%;
+    --ring: 175 85% 55%;
 
     /* Design tokens */
     --radius: 0.75rem;
     
     /* Custom gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(225 60% 45%), hsl(240 65% 55%));
-    --gradient-accent: linear-gradient(135deg, hsl(35 85% 55%), hsl(25 90% 60%));
-    --gradient-subtle: linear-gradient(180deg, hsl(220 15% 98%), hsl(220 15% 95%));
-    --gradient-hero: linear-gradient(135deg, hsl(225 60% 45% / 0.05), hsl(240 65% 55% / 0.1));
+    --gradient-primary: linear-gradient(135deg, hsl(175 85% 55%), hsl(185 90% 60%));
+    --gradient-accent: linear-gradient(135deg, hsl(175 85% 55%), hsl(165 90% 60%));
+    --gradient-subtle: linear-gradient(180deg, hsl(185 80% 10%), hsl(185 60% 12%));
+    --gradient-hero: linear-gradient(135deg, hsl(185 100% 8%), hsl(185 80% 12%));
     
     /* Shadows */
-    --shadow-card: 0 4px 24px -4px hsl(225 60% 45% / 0.08);
-    --shadow-button: 0 2px 12px -2px hsl(35 85% 55% / 0.25);
-    --shadow-glow: 0 0 32px hsl(225 70% 65% / 0.15);
+    --shadow-card: 0 4px 24px -4px hsl(175 85% 55% / 0.15);
+    --shadow-button: 0 2px 12px -2px hsl(175 85% 55% / 0.35);
+    --shadow-glow: 0 0 32px hsl(175 100% 70% / 0.25);
     
     /* Animation easing */
     --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
