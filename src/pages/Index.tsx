@@ -3,15 +3,15 @@ import { Shield, Zap, Lock } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-hero">
-      {/* Hero Background */}
+    <div className="min-h-screen relative">
+      {/* Custom gradient background matching uploaded image */}
       <div 
-        className="absolute inset-0 opacity-80"
+        className="absolute inset-0"
         style={{
-          backgroundImage: `url(/lovable-uploads/f00df91a-b387-4414-9336-55cd0840100c.png)`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
+          background: `linear-gradient(180deg, 
+            hsl(260, 60%, 85%) 0%, 
+            hsl(0, 0%, 98%) 50%, 
+            hsl(180, 40%, 85%) 100%)`
         }}
       />
       
